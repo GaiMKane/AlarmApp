@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="8dp"
+        android:text="08 : 45 AM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/selectTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/button_bg"
+        android:text="Select Time"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="26dp"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/setAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/button_bg"
+        android:text="Set Alarm"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="26dp"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancelAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/button_bg"
+        android:text="Cancel Alarm"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="26dp"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
